@@ -1,0 +1,110 @@
+﻿  27880Q1.cpp
+C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(476,36): warning C4553: '==': result of expression not used; did you intend '='?
+      C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(476,36):
+      the template instantiation context (the oldest one first) is
+          C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(15,7):
+          while compiling class template 'RLRB'
+          C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(689,26):
+          see reference to class template instantiation 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>' being compiled
+          C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(467,7):
+          while compiling class template member function 'void RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::remove(Key)'
+          with
+          [
+              Key=int
+          ]
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(760,14):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::remove' in 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::test'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(803,30):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::test' in 'main'
+  
+C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(354,9): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+      C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(354,9):
+      the template instantiation context (the oldest one first) is
+          C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(349,8):
+          while compiling class template member function 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::Node *RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::select(RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::Node *,int)'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(635,11):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::select' in 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::select'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(734,61):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::select' in 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::test'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(803,30):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::test' in 'main'
+  
+C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(281,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+      C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(281,29):
+      the template instantiation context (the oldest one first) is
+          C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(275,6):
+          while compiling class template member function 'int RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::rank(Key,RLRB<Key,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::Node *)'
+          with
+          [
+              Key=int
+          ]
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(549,3):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::rank' in 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::rank'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(733,54):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::rank' in 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::test'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(803,30):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::test' in 'main'
+  
+C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(285,15): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(257,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+      C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(257,32):
+      the template instantiation context (the oldest one first) is
+          C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(232,8):
+          while compiling class template member function 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::Node *RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::put(RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::Node *,Key,Value)'
+          with
+          [
+              Key=int,
+              Value=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(481,8):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::put' in 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::put'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(693,11):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::put' in 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::test'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(803,30):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::test' in 'main'
+  
+C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(227,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+      C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(227,32):
+      the template instantiation context (the oldest one first) is
+          C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(210,8):
+          while compiling class template member function 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::Node *RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::balance(RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::Node *)'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(148,3):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::balance' in 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::remove'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(475,8):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::remove' in 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::remove'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(760,14):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::remove' in 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::test'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(803,30):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::test' in 'main'
+  
+C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(74,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+      C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(74,32):
+      the template instantiation context (the oldest one first) is
+          C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(63,8):
+          while compiling class template member function 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::Node *RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::rotateRight(RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::Node *)'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(251,6):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::rotateRight' in 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::put'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(481,8):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::put' in 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::put'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(693,11):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::put' in 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::test'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(803,30):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::test' in 'main'
+  
+C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(77,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(55,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+      C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(55,32):
+      the template instantiation context (the oldest one first) is
+          C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(44,8):
+          while compiling class template member function 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::Node *RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::rotateLeft(RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::Node *)'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(253,6):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::rotateLeft' in 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::put'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(481,8):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::put' in 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::put'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(693,11):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::put' in 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::test'
+              C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(803,30):
+              see the first reference to 'RLRB<int,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::test' in 'main'
+  
+C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\27880Q1.cpp(58,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  27880Q1.vcxproj -> C:\Users\abdul\OneDrive - Institute of Business Administration\Semester 3\DSA\Assignment 3\27880Q1\x64\Debug\27880Q1.exe
